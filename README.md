@@ -21,7 +21,7 @@ The project provides an interactive portfolio platform where users can:
 
 The project consists of the following files and folders:
 - App.jsx which manages the application state and component rendering.
-- components folder which contains reusable React components:
+- Components folder which contains reusable React components:
   - Header.jsx
   - ProjectForm.jsx
   - SearchBar.jsx
