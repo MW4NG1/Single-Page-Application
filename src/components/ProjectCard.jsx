@@ -1,9 +1,11 @@
 // Displays information for a single project
-function ProjectCard() {
+function ProjectCard({ title, description }) {
   return (
     <div className="project-card">
-      <h3>Project Title</h3>
-      <p>Project Description</p>
+        {/* Project Title */}
+      <h3>{title}</h3>
+      {/* Project Description */}
+      <p>{description}</p>
     </div>
   );
 }
