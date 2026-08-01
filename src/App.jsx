@@ -1,5 +1,7 @@
 // Import React hook
 import { useState } from "react";
+// Import application styles
+import "./styles/App.css";
 
 // Import components
 import Header from "./components/Header";
@@ -13,7 +15,7 @@ function App() {
   // Store search text
   const [searchTerm, setSearchTerm] = useState("");
   return (
-    <div>
+    <div className="app-container">
       {/* App heading */}
       <Header />
       {/* Form for adding projects */}

@@ -1,10 +1,8 @@
 // Displays information for a single project
 function ProjectCard() {
   return (
-    <div>
-      {/* Project title */}
+    <div className="project-card">
       <h3>Project Title</h3>
-      {/* Project description */}
       <p>Project Description</p>
     </div>
   );
