@@ -2,7 +2,7 @@
 function Header() {
   return (
     <header>
-      <h1>Personal Project Showcase App</h1>
+      <h1>A Personal Project Showcase App</h1>
     </header>
   );
 }
