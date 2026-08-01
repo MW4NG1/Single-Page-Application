@@ -14,6 +14,10 @@ function App() {
   const [projects, setProjects] = useState([]);
   // Store search text
   const [searchTerm, setSearchTerm] = useState("");
+  // Filter projects based on search text
+  const filteredProjects = projects.filter(function (project) {
+    return project.title.toLowerCase().includes(searchTerm.toLowerCase());
+  });
   return (
     <div className="app-container">
       {/* App heading */}
@@ -23,7 +27,7 @@ function App() {
       {/* Search input */}
       <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
       {/* Displays project cards */}
-      <ProjectList projects={projects} />
+      <ProjectList projects={filteredProjects} />
     </div>
   );
 }
