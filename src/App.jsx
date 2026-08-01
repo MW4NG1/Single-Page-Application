@@ -19,19 +19,11 @@ function App() {
       {/* App heading */}
       <Header />
       {/* Form for adding projects */}
-      <ProjectForm
-      projects={projects}
-      setProjects={setProjects}
-      />
+      <ProjectForm projects={projects} setProjects={setProjects} />
       {/* Search input */}
-      <SearchBar
-      searchTerm={searchTerm}
-      setSearchTerm={setSearchTerm}
-      />
+      <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
       {/* Displays project cards */}
-      <ProjectList
-      projects={projects}
-      />
+      <ProjectList projects={projects} />
     </div>
   );
 }

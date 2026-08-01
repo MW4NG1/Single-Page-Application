@@ -1,10 +1,7 @@
 // Displays the search input
 function SearchBar() {
   return (
-  <input
-  className="search-input"
-   type="text" 
-   placeholder="Search Projects" />
+    <input className="search-input" type="text" placeholder="Search Projects" />
   );
 }
 
