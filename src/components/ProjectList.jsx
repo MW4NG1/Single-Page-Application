@@ -5,15 +5,15 @@ import ProjectCard from "./ProjectCard";
 function ProjectList({ projects }) {
   return (
     <div>
-        {/* Loop through all projects */}
+      {/* Loop through all projects */}
       {projects.map(function (project) {
         return (
-        <ProjectCard
-          key={project.id}
-          title={project.title}
-          description={project.description}
-        />
-      );
+          <ProjectCard
+            key={project.id}
+            title={project.title}
+            description={project.description}
+          />
+        );
       })}
     </div>
   );

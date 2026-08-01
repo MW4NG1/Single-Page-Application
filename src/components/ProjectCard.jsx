@@ -2,7 +2,7 @@
 function ProjectCard({ title, description }) {
   return (
     <div className="project-card">
-        {/* Project Title */}
+      {/* Project Title */}
       <h3>{title}</h3>
       {/* Project Description */}
       <p>{description}</p>
