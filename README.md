@@ -77,7 +77,7 @@ All tests were implemented using Vitest and React Testing Library.
 
 ## Author
 
-Developed by Mwangi Michael for the React Single Page Application Summative Lab.
+Developed by Mwangi Michael for the Single Page Application Lab.
 
 ## How to Run the Project
 
