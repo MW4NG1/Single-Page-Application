@@ -11,6 +11,7 @@ Creative agencies need a simple and efficient way to showcase their work online.
 ## Solution
 
 The project provides an interactive portfolio platform where users can:
+
 - View a list of projects
 - Add new projects dynamically
 - Search for projects by title
@@ -20,6 +21,7 @@ The project provides an interactive portfolio platform where users can:
 ## Project Structure
 
 The project consists of the following files and folders:
+
 - App.jsx which manages the application state and component rendering.
 - Components folder which contains reusable React components:
   - Header.jsx
@@ -57,10 +59,11 @@ The application uses CSS styling and responsive layouts to provide a user-friend
 ## Testing
 
 The application includes unit tests for:
+
 - ProjectCard component rendering
 - ProjectList component rendering
 - ProjectForm submission functionality
-All tests were implemented using Vitest and React Testing Library.
+  All tests were implemented using Vitest and React Testing Library.
 
 ## Known Issues
 
