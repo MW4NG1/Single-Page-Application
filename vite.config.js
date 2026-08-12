@@ -5,6 +5,8 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
 
+  base: "/Single-Page-Application/",
+
   // Vitest configuration
   test: {
     globals: true,
